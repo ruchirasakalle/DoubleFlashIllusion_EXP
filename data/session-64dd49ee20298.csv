@@ -1,0 +1,1301 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","participant_id","view_history","rt","item_width_mm","item_height_mm","item_width_px","px2mm","view_dist_mm","item_width_deg","px2deg","win_width_deg","win_height_deg","stimulus","response","response_type","key_press","avg_frame_time","center_x","center_y","correct_response"
+"true","false","[]","[]","[]","preload","0","10","0.0-0.0","196363","","","","","","","","","","","","","","","","","","",""
+"","","","","","instructions","1","3144","0.0-1.0","196363","[{""page_index"":0,""viewing_time"":1466},{""page_index"":1,""viewing_time"":767},{""page_index"":2,""viewing_time"":900}]","3134","","","","","","","","","","","","","","","","",""
+"true","","","","","fullscreen","2","5354","0.0-2.0","196363","","","","","","","","","","","","","","","","","","",""
+"","","","","","virtual-chinrest","3","14211","0.0-3.0","196363","","8855","85.6","53.98","318","3.71","253.36","19.176854534373803","16.58249007573149","86.8385865707493","54.274116606718316","","","","","","","",""
+"","","","","","html-keyboard-response","4","15357","0.0-4.0","196363","","1143","","","","","","","","","","This is just trial run, press Space bar to continue"," ","","","","","",""
+"","","","","","psychophysics","5","18630","0.0-5.0-0.0","196363","","3266","","","","","","","","","","","1","key","1","16.666999999999987","720","250","0"
+"","","","","","psychophysics","6","20500","0.0-5.0-1.0","196363","","1865","","","","","","","","","","","1","key","1","16.66812612612613","720","250","1"
+"","","","","","psychophysics","7","21853","0.0-5.0-2.0","196363","","1349","","","","","","","","","","","1","key","1","16.66700000000001","720","250","1"
+"","","","","","psychophysics","8","22967","0.0-5.0-3.0","196363","","1108","","","","","","","","","","","1","key","1","16.667000000000012","720","250","1"
+"","","","","","psychophysics","9","24048","0.0-5.0-4.0","196363","","1078","","","","","","","","","","","1","key","1","16.666999999999973","720","250","1"
+"","","","","","psychophysics","10","25066","0.0-5.0-5.0","196363","","1012","","","","","","","","","","","1","key","1","16.66700000000001","720","250","1"
+"","","","","","psychophysics","11","26606","0.0-5.0-6.0","196363","","1537","","","","","","","","","","","1","key","1","16.667","720","250","0"
+"","","","","","psychophysics","12","28281","0.0-5.0-7.0","196363","","1668","","","","","","","","","","","1","key","1","16.66700000000001","720","250","1"
+"","","","","","html-keyboard-response","13","35644","0.0-6.0","196363","","7362","","","","","","","","","","You have successfully completed the pilot , Press Space bar to continue to main block of experiment"," ","","","","","",""
+"","","","","","psychophysics","14","38085","0.0-7.0-0.0","196363","","2437","","","","","","","","","","","1","key","1","16.668787671232852","720","250","1"
+"","","","","","html-keyboard-response","15","40920","0.0-7.0-1.0","196363","","2833","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","16","42466","0.0-7.0-2.0","196363","","1537","","","","","","","","","","","1","key","1","16.66700000000003","720","250","1"
+"","","","","","html-keyboard-response","17","46566","0.0-7.0-3.0","196363","","4099","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","18","48316","0.0-7.0-4.0","196363","","1747","","","","","","","","","","","1","key","1","16.667866666666704","720","250","1"
+"","","","","","html-keyboard-response","19","50045","0.0-7.0-5.0","196363","","1728","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","20","51139","0.0-7.0-6.0","196363","","1084","","","","","","","","","","","1","key","1","16.666999999999938","720","250","1"
+"","","","","","html-keyboard-response","21","52264","0.0-7.0-7.0","196363","","1123","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","22","53381","0.0-7.0-8.0","196363","","1116","","","","","","","","","","","1","key","1","16.666999999999977","720","250","1"
+"","","","","","html-keyboard-response","23","54404","0.0-7.0-9.0","196363","","1021","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","24","55492","0.0-7.0-10.0","196363","","1078","","","","","","","","","","","1","key","1","16.666999999999938","720","250","1"
+"","","","","","html-keyboard-response","25","56488","0.0-7.0-11.0","196363","","995","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","26","57670","0.0-7.0-12.0","196363","","1177","","","","","","","","","","","1","key","1","16.668633802816874","720","250","1"
+"","","","","","html-keyboard-response","27","58496","0.0-7.0-13.0","196363","","825","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","28","59968","0.0-7.0-14.0","196363","","1464","","","","","","","","","","","1","key","1","16.66700000000004","720","250","1"
+"","","","","","html-keyboard-response","29","60775","0.0-7.0-15.0","196363","","805","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","30","62576","0.0-7.0-16.0","196363","","1797","","","","","","","","","","","1","key","1","16.666999999999987","720","250","1"
+"","","","","","html-keyboard-response","31","63713","0.0-7.0-17.0","196363","","1135","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","32","65299","0.0-7.0-18.0","196363","","1581","","","","","","","","","","","1","key","1","16.66699999999998","720","250","1"
+"","","","","","html-keyboard-response","33","66296","0.0-7.0-19.0","196363","","995","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","34","67589","0.0-7.0-20.0","196363","","1286","","","","","","","","","","","1","key","1","16.668623376623522","720","250","1"
+"","","","","","html-keyboard-response","35","68480","0.0-7.0-21.0","196363","","889","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","36","69766","0.0-7.0-22.0","196363","","1281","","","","","","","","","","","1","key","1","16.66699999999996","720","250","1"
+"","","","","","html-keyboard-response","37","70776","0.0-7.0-23.0","196363","","1009","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","38","72167","0.0-7.0-24.0","196363","","1383","","","","","","","","","","","1","key","1","16.666999999999877","720","250","0"
+"","","","","","html-keyboard-response","39","72998","0.0-7.0-25.0","196363","","830","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","40","74324","0.0-7.0-26.0","196363","","1322","","","","","","","","","","","1","key","1","16.66699999999999","720","250","0"
+"","","","","","html-keyboard-response","41","75291","0.0-7.0-27.0","196363","","965","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","42","76650","0.0-7.0-28.0","196363","","1350","","","","","","","","","","","1","key","1","16.667000000000023","720","250","1"
+"","","","","","html-keyboard-response","43","77671","0.0-7.0-29.0","196363","","1019","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","44","78958","0.0-7.0-30.0","196363","","1282","","","","","","","","","","","1","key","1","16.66699999999996","720","250","1"
+"","","","","","html-keyboard-response","45","80131","0.0-7.0-31.0","196363","","1171","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","46","82017","0.0-7.0-32.0","196363","","1878","","","","","","","","","","","1","key","1","16.666999999999994","720","250","1"
+"","","","","","html-keyboard-response","47","83116","0.0-7.0-33.0","196363","","1098","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","48","84360","0.0-7.0-34.0","196363","","1238","","","","","","","","","","","1","key","1","16.666999999999906","720","250","1"
+"","","","","","html-keyboard-response","49","85413","0.0-7.0-35.0","196363","","1052","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","50","86559","0.0-7.0-36.0","196363","","1138","","","","","","","","","","","1","key","1","16.666999999999998","720","250","1"
+"","","","","","html-keyboard-response","51","87461","0.0-7.0-37.0","196363","","900","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","52","89291","0.0-7.0-38.0","196363","","1824","","","","","","","","","","","1","key","1","16.666999999999945","720","250","0"
+"","","","","","html-keyboard-response","53","90368","0.0-7.0-39.0","196363","","1076","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","54","91881","0.0-7.0-40.0","196363","","1505","","","","","","","","","","","1","key","1","16.667","720","250","0"
+"","","","","","html-keyboard-response","55","92421","0.0-7.0-41.0","196363","","539","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","56","93530","0.0-7.0-42.0","196363","","1104","","","","","","","","","","","1","key","1","16.666999999999977","720","250","1"
+"","","","","","html-keyboard-response","57","94219","0.0-7.0-43.0","196363","","688","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","58","95251","0.0-7.0-44.0","196363","","1024","","","","","","","","","","","1","key","1","16.667000000000108","720","250","1"
+"","","","","","html-keyboard-response","59","95894","0.0-7.0-45.0","196363","","641","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","60","96849","0.0-7.0-46.0","196363","","950","","","","","","","","","","","1","key","1","16.669210526315606","720","250","1"
+"","","","","","html-keyboard-response","61","97557","0.0-7.0-47.0","196363","","707","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","62","98507","0.0-7.0-48.0","196363","","943","","","","","","","","","","","1","key","1","16.667000000000005","720","250","1"
+"","","","","","html-keyboard-response","63","99541","0.0-7.0-49.0","196363","","1033","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","64","101466","0.0-7.0-50.0","196363","","1920","","","","","","","","","","","1","key","1","16.667000000000016","720","250","1"
+"","","","","","html-keyboard-response","65","102601","0.0-7.0-51.0","196363","","1134","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","66","103867","0.0-7.0-52.0","196363","","1256","","","","","","","","","","","1","key","1","16.66699999999994","720","250","1"
+"","","","","","html-keyboard-response","67","105048","0.0-7.0-53.0","196363","","1179","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","68","106585","0.0-7.0-54.0","196363","","1533","","","","","","","","","","","1","key","1","16.667000000000016","720","250","1"
+"","","","","","html-keyboard-response","69","107349","0.0-7.0-55.0","196363","","763","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","70","108482","0.0-7.0-56.0","196363","","1124","","","","","","","","","","","1","key","1","16.668970588235158","720","250","0"
+"","","","","","html-keyboard-response","71","109102","0.0-7.0-57.0","196363","","619","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","72","110372","0.0-7.0-58.0","196363","","1265","","","","","","","","","","","1","key","1","16.66699999999994","720","250","1"
+"","","","","","html-keyboard-response","73","111184","0.0-7.0-59.0","196363","","811","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","74","112456","0.0-7.0-60.0","196363","","1264","","","","","","","","","","","1","key","1","16.66699999999994","720","250","0"
+"","","","","","html-keyboard-response","75","113401","0.0-7.0-61.0","196363","","943","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","76","114756","0.0-7.0-62.0","196363","","1351","","","","","","","","","","","1","key","1","16.667000000000023","720","250","0"
+"","","","","","html-keyboard-response","77","115585","0.0-7.0-63.0","196363","","828","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","78","116736","0.0-7.0-64.0","196363","","1142","","","","","","","","","","","1","key","1","16.667000000000016","720","250","1"
+"","","","","","html-keyboard-response","79","117555","0.0-7.0-65.0","196363","","818","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","80","118981","0.0-7.0-66.0","196363","","1421","","","","","","","","","","","1","key","1","16.668488372092916","720","250","1"
+"","","","","","html-keyboard-response","81","119923","0.0-7.0-67.0","196363","","941","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","82","121215","0.0-7.0-68.0","196363","","1288","","","","","","","","","","","1","key","1","16.666999999999973","720","250","0"
+"","","","","","html-keyboard-response","83","122478","0.0-7.0-69.0","196363","","1262","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","84","123826","0.0-7.0-70.0","196363","","1343","","","","","","","","","","","1","key","1","16.66700000000001","720","250","0"
+"","","","","","html-keyboard-response","85","124956","0.0-7.0-71.0","196363","","1128","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","86","126435","0.0-7.0-72.0","196363","","1471","","","","","","","","","","","1","key","1","16.666999999999973","720","250","1"
+"","","","","","html-keyboard-response","87","127343","0.0-7.0-73.0","196363","","907","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","88","128656","0.0-7.0-74.0","196363","","1308","","","","","","","","","","","1","key","1","16.668576923076987","720","250","1"
+"","","","","","html-keyboard-response","89","129504","0.0-7.0-75.0","196363","","846","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","90","130692","0.0-7.0-76.0","196363","","1179","","","","","","","","","","","1","key","1","16.66700000000005","720","250","0"
+"","","","","","html-keyboard-response","91","131696","0.0-7.0-77.0","196363","","1002","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","92","132848","0.0-7.0-78.0","196363","","1148","","","","","","","","","","","1","key","1","16.666999999999803","720","250","1"
+"","","","","","html-keyboard-response","93","133666","0.0-7.0-79.0","196363","","817","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","html-keyboard-response","94","140574","0.0-8.0","196363","","6907","","","","","","","","","","Your average response time is  null ms You are doing great"," ","","","","","",""
+"","","","","","html-button-response","95","205214","0.0-9.0","196363","","64639","","","","","","","","","","<p>You have successfully completed one block of the experiment. The next part of the experiment can be started in <span id=""clock"">1:00</span> <br>You can take a break for a minute or more if you like and Press continue when you are ready","0","","","","","",""
+"","","","","","psychophysics","96","206707","0.0-10.0-0.0","196363","","1481","","","","","","","","","","","1","key","1","16.66699999999981","720","250","1"
+"","","","","","html-keyboard-response","97","207558","0.0-10.0-1.0","196363","","849","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","98","208735","0.0-10.0-2.0","196363","","1172","","","","","","","","","","","1","key","1","16.667000000000034","720","250","2"
+"","","","","","html-keyboard-response","99","210245","0.0-10.0-3.0","196363","","1509","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","100","211366","0.0-10.0-4.0","196363","","1113","","","","","","","","","","","1","key","1","16.667000000000193","720","250","2"
+"","","","","","html-keyboard-response","101","212068","0.0-10.0-5.0","196363","","700","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","102","213181","0.0-10.0-6.0","196363","","1108","","","","","","","","","","","1","key","1","16.667000000000193","720","250","2"
+"","","","","","html-keyboard-response","103","213979","0.0-10.0-7.0","196363","","797","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","104","215085","0.0-10.0-8.0","196363","","1098","","","","","","","","","","","1","key","1","16.668590909091026","720","250","2"
+"","","","","","html-keyboard-response","105","215788","0.0-10.0-9.0","196363","","702","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","106","216936","0.0-10.0-10.0","196363","","1144","","","","","","","","","","","1","key","1","16.667000000000225","720","250","2"
+"","","","","","html-keyboard-response","107","217724","0.0-10.0-11.0","196363","","786","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","108","218835","0.0-10.0-12.0","196363","","1104","","","","","","","","","","","1","key","1","16.66699999999996","720","250","2"
+"","","","","","html-keyboard-response","109","219590","0.0-10.0-13.0","196363","","754","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","110","220768","0.0-10.0-14.0","196363","","1173","","","","","","","","","","","1","key","1","16.667000000000257","720","250","1"
+"","","","","","html-keyboard-response","111","224850","0.0-10.0-15.0","196363","","4081","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","112","226183","0.0-10.0-16.0","196363","","1325","","","","","","","","","","","1","key","1","16.668737500000134","720","250","1"
+"","","","","","html-keyboard-response","113","231214","0.0-10.0-17.0","196363","","5030","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","114","234067","0.0-10.0-18.0","196363","","2848","","","","","","","","","","","2","key","2","16.667000000000005","720","250","1"
+"","","","","","html-keyboard-response","115","237940","0.0-10.0-19.0","196363","","3871","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","116","239915","0.0-10.0-20.0","196363","","1967","","","","","","","","","","","1","key","1","16.666999999999934","720","250","2"
+"","","","","","html-keyboard-response","117","243506","0.0-10.0-21.0","196363","","3590","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","118","245033","0.0-10.0-22.0","196363","","1521","","","","","","","","","","","1","key","1","16.66833695652167","720","250","2"
+"","","","","","html-keyboard-response","119","247182","0.0-10.0-23.0","196363","","2147","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","120","249339","0.0-10.0-24.0","196363","","2152","","","","","","","","","","","2","key","2","16.66700000000004","720","250","2"
+"","","","","","html-keyboard-response","121","252381","0.0-10.0-25.0","196363","","3042","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","122","253718","0.0-10.0-26.0","196363","","1330","","","","","","","","","","","2","key","2","16.666999999999824","720","250","2"
+"","","","","","html-keyboard-response","123","255636","0.0-10.0-27.0","196363","","1916","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","124","256797","0.0-10.0-28.0","196363","","1156","","","","","","","","","","","1","key","1","16.666999999999618","720","250","2"
+"","","","","","html-keyboard-response","125","259514","0.0-10.0-29.0","196363","","2715","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","126","260851","0.0-10.0-30.0","196363","","1330","","","","","","","","","","","2","key","2","16.666999999999824","720","250","1"
+"","","","","","html-keyboard-response","127","263917","0.0-10.0-31.0","196363","","3065","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","128","265250","0.0-10.0-32.0","196363","","1328","","","","","","","","","","","2","key","2","16.666999999999824","720","250","2"
+"","","","","","html-keyboard-response","129","265889","0.0-10.0-33.0","196363","","637","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","130","267022","0.0-10.0-34.0","196363","","1129","","","","","","","","","","","2","key","2","16.671117647058804","720","250","1"
+"","","","","","html-keyboard-response","131","268508","0.0-10.0-35.0","196363","","1486","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","132","270143","0.0-10.0-36.0","196363","","1626","","","","","","","","","","","1","key","1","16.666999999999632","720","250","2"
+"","","","","","html-keyboard-response","133","271647","0.0-10.0-37.0","196363","","1503","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","134","273233","0.0-10.0-38.0","196363","","1580","","","","","","","","","","","2","key","2","16.667000000000513","720","250","1"
+"","","","","","html-keyboard-response","135","277211","0.0-10.0-39.0","196363","","3978","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","136","278405","0.0-10.0-40.0","196363","","1188","","","","","","","","","","","2","key","2","16.66869014084444","720","250","1"
+"","","","","","html-keyboard-response","137","279866","0.0-10.0-41.0","196363","","1459","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","138","280934","0.0-10.0-42.0","196363","","1059","","","","","","","","","","","2","key","2","16.66700000000037","720","250","1"
+"","","","","","html-keyboard-response","139","281434","0.0-10.0-43.0","196363","","499","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","140","282566","0.0-10.0-44.0","196363","","1126","","","","","","","","","","","1","key","1","16.666999999999568","720","250","2"
+"","","","","","html-keyboard-response","141","283233","0.0-10.0-45.0","196363","","666","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","142","284567","0.0-10.0-46.0","196363","","1326","","","","","","","","","","","2","key","2","16.667000000000552","720","250","2"
+"","","","","","html-keyboard-response","143","285254","0.0-10.0-47.0","196363","","685","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","144","286468","0.0-10.0-48.0","196363","","1209","","","","","","","","","","","1","key","1","16.666999999999884","720","250","2"
+"","","","","","html-keyboard-response","145","287186","0.0-10.0-49.0","196363","","717","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","146","289053","0.0-10.0-50.0","196363","","1859","","","","","","","","","","","2","key","2","16.668116071428813","720","250","2"
+"","","","","","html-keyboard-response","147","292009","0.0-10.0-51.0","196363","","2954","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","148","293207","0.0-10.0-52.0","196363","","1193","","","","","","","","","","","2","key","2","16.667000000000257","720","250","1"
+"","","","","","html-keyboard-response","149","293906","0.0-10.0-53.0","196363","","698","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","150","295140","0.0-10.0-54.0","196363","","1228","","","","","","","","","","","2","key","2","16.6670000000001","720","250","1"
+"","","","","","html-keyboard-response","151","295583","0.0-10.0-55.0","196363","","443","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","152","296865","0.0-10.0-56.0","196363","","1277","","","","","","","","","","","2","key","2","16.66699999999996","720","250","2"
+"","","","","","html-keyboard-response","153","297373","0.0-10.0-57.0","196363","","508","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","154","298566","0.0-10.0-58.0","196363","","1187","","","","","","","","","","","2","key","2","16.66878873239432","720","250","2"
+"","","","","","html-keyboard-response","155","299092","0.0-10.0-59.0","196363","","525","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","156","300788","0.0-10.0-60.0","196363","","1690","","","","","","","","","","","1","key","1","16.666999999999696","720","250","2"
+"","","","","","html-keyboard-response","157","301933","0.0-10.0-61.0","196363","","1144","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","158","303260","0.0-10.0-62.0","196363","","1319","","","","","","","","","","","2","key","2","16.66699999999962","720","250","1"
+"","","","","","html-keyboard-response","159","304541","0.0-10.0-63.0","196363","","1279","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","160","305693","0.0-10.0-64.0","196363","","1147","","","","","","","","","","","2","key","2","16.666999999999568","720","250","1"
+"","","","","","html-keyboard-response","161","306212","0.0-10.0-65.0","196363","","518","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","162","307535","0.0-10.0-66.0","196363","","1314","","","","","","","","","","","2","key","2","16.668582278480635","720","250","2"
+"","","","","","html-keyboard-response","163","308058","0.0-10.0-67.0","196363","","522","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","164","309288","0.0-10.0-68.0","196363","","1225","","","","","","","","","","","2","key","2","16.666999999999884","720","250","2"
+"","","","","","html-keyboard-response","165","309769","0.0-10.0-69.0","196363","","480","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","166","310881","0.0-10.0-70.0","196363","","1107","","","","","","","","","","","2","key","2","16.667000000000193","720","250","2"
+"","","","","","html-keyboard-response","167","311478","0.0-10.0-71.0","196363","","596","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","168","313481","0.0-10.0-72.0","196363","","1994","","","","","","","","","","","1","key","1","16.666999999999824","720","250","2"
+"","","","","","html-keyboard-response","169","316102","0.0-10.0-73.0","196363","","2620","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","170","317433","0.0-10.0-74.0","196363","","1325","","","","","","","","","","","2","key","2","16.667000000000552","720","250","2"
+"","","","","","html-keyboard-response","171","318298","0.0-10.0-75.0","196363","","865","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","172","319752","0.0-10.0-76.0","196363","","1445","","","","","","","","","","","1","key","1","16.666999999999774","720","250","2"
+"","","","","","html-keyboard-response","173","322263","0.0-10.0-77.0","196363","","2510","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","html-keyboard-response","174","325259","0.0-11.0","196363","","2994","","","","","","","","","","Your average response time is null ms You are doing great"," ","","","","","",""
+"","","","","","html-button-response","175","385895","0.0-12.0","196363","","60636","","","","","","","","","","<p>You have successfully completed one block of the experiment. The next part of the experiment can be started in <span id=""clock"">1:00</span> <br>You can take a break for a minute or more if you like and Press continue when you are ready","0","","","","","",""
+"","","","","","psychophysics","176","388250","0.0-13.0-0.0","196363","","2349","","","","","","","","","","","2","key","2","16.667000000000144","720","250","1"
+"","","","","","html-keyboard-response","177","389319","0.0-13.0-1.0","196363","","1067","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","178","390565","0.0-13.0-2.0","196363","","1238","","","","","","","","","","","2","key","2","16.66700000000031","720","250","1"
+"","","","","","html-keyboard-response","179","391311","0.0-13.0-3.0","196363","","745","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","180","392341","0.0-13.0-4.0","196363","","1025","","","","","","","","","","","2","key","2","16.667000000000566","720","250","1"
+"","","","","","html-keyboard-response","181","392643","0.0-13.0-5.0","196363","","300","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","182","393600","0.0-13.0-6.0","196363","","948","","","","","","","","","","","2","key","2","16.666999999999494","720","250","1"
+"","","","","","html-keyboard-response","183","393993","0.0-13.0-7.0","196363","","391","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","184","394933","0.0-13.0-8.0","196363","","935","","","","","","","","","","","2","key","2","16.666999999999202","720","250","1"
+"","","","","","html-keyboard-response","185","395281","0.0-13.0-9.0","196363","","347","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","186","396262","0.0-13.0-10.0","196363","","973","","","","","","","","","","","2","key","2","16.667000000000048","720","250","1"
+"","","","","","html-keyboard-response","187","396536","0.0-13.0-11.0","196363","","273","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","188","398131","0.0-13.0-12.0","196363","","1590","","","","","","","","","","","1","key","1","16.66700000000007","720","250","1"
+"","","","","","html-keyboard-response","189","398736","0.0-13.0-13.0","196363","","604","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","190","400231","0.0-13.0-14.0","196363","","1487","","","","","","","","","","","2","key","2","16.668377777778208","720","250","1"
+"","","","","","html-keyboard-response","191","401072","0.0-13.0-15.0","196363","","840","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","192","402352","0.0-13.0-16.0","196363","","1275","","","","","","","","","","","2","key","2","16.66699999999996","720","250","1"
+"","","","","","html-keyboard-response","193","403347","0.0-13.0-17.0","196363","","994","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","194","404585","0.0-13.0-18.0","196363","","1230","","","","","","","","","","","2","key","2","16.6670000000001","720","250","1"
+"","","","","","html-keyboard-response","195","405047","0.0-13.0-19.0","196363","","462","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","196","406181","0.0-13.0-20.0","196363","","1129","","","","","","","","","","","2","key","2","16.667000000000424","720","250","1"
+"","","","","","html-keyboard-response","197","406768","0.0-13.0-21.0","196363","","586","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","198","408366","0.0-13.0-22.0","196363","","1589","","","","","","","","","","","2","key","2","16.66700000000007","720","250","1"
+"","","","","","html-keyboard-response","199","408906","0.0-13.0-23.0","196363","","538","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","200","410316","0.0-13.0-24.0","196363","","1406","","","","","","","","","","","1","key","1","16.668482352941133","720","250","1"
+"","","","","","html-keyboard-response","201","410665","0.0-13.0-25.0","196363","","348","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","202","412950","0.0-13.0-26.0","196363","","2277","","","","","","","","","","","1","key","1","16.66699999999969","720","250","1"
+"","","","","","html-keyboard-response","203","414050","0.0-13.0-27.0","196363","","1099","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","204","415867","0.0-13.0-28.0","196363","","1811","","","","","","","","","","","1","key","1","16.667000000000346","720","250","1"
+"","","","","","html-keyboard-response","205","416604","0.0-13.0-29.0","196363","","737","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","206","418566","0.0-13.0-30.0","196363","","1953","","","","","","","","","","","2","key","2","16.667000000000048","720","250","1"
+"","","","","","html-keyboard-response","207","419689","0.0-13.0-31.0","196363","","1122","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","208","420897","0.0-13.0-32.0","196363","","1202","","","","","","","","","","","2","key","2","16.668849315068506","720","250","1"
+"","","","","","html-keyboard-response","209","421232","0.0-13.0-33.0","196363","","334","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","210","423047","0.0-13.0-34.0","196363","","1808","","","","","","","","","","","1","key","1","16.666999999999813","720","250","1"
+"","","","","","html-keyboard-response","211","423502","0.0-13.0-35.0","196363","","454","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","212","425731","0.0-13.0-36.0","196363","","2225","","","","","","","","","","","1","key","1","16.667000000000193","720","250","1"
+"","","","","","html-keyboard-response","213","427700","0.0-13.0-37.0","196363","","1968","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","214","429417","0.0-13.0-38.0","196363","","1709","","","","","","","","","","","2","key","2","16.66700000000001","720","250","1"
+"","","","","","html-keyboard-response","215","429947","0.0-13.0-39.0","196363","","529","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","216","431076","0.0-13.0-40.0","196363","","1125","","","","","","","","","","","2","key","2","16.668895522387935","720","250","1"
+"","","","","","html-keyboard-response","217","431828","0.0-13.0-41.0","196363","","750","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","218","433258","0.0-13.0-42.0","196363","","1422","","","","","","","","","","","2","key","2","16.667000000000083","720","250","1"
+"","","","","","html-keyboard-response","219","433747","0.0-13.0-43.0","196363","","487","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","220","434871","0.0-13.0-44.0","196363","","1119","","","","","","","","","","","2","key","2","16.667000000000193","720","250","1"
+"","","","","","html-keyboard-response","221","435650","0.0-13.0-45.0","196363","","777","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","222","436914","0.0-13.0-46.0","196363","","1257","","","","","","","","","","","1","key","1","16.66699999999975","720","250","1"
+"","","","","","html-keyboard-response","223","437886","0.0-13.0-47.0","196363","","971","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","224","439083","0.0-13.0-48.0","196363","","1192","","","","","","","","","","","1","key","1","16.666999999999664","720","250","1"
+"","","","","","html-keyboard-response","225","439719","0.0-13.0-49.0","196363","","635","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","226","440989","0.0-13.0-50.0","196363","","1262","","","","","","","","","","","1","key","1","16.6703815789469","720","250","1"
+"","","","","","html-keyboard-response","227","441471","0.0-13.0-51.0","196363","","480","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","228","442616","0.0-13.0-52.0","196363","","1141","","","","","","","","","","","2","key","2","16.667000000000648","720","250","1"
+"","","","","","html-keyboard-response","229","443190","0.0-13.0-53.0","196363","","573","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","230","444418","0.0-13.0-54.0","196363","","1219","","","","","","","","","","","2","key","2","16.666999999999884","720","250","1"
+"","","","","","html-keyboard-response","231","445231","0.0-13.0-55.0","196363","","811","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","232","446424","0.0-13.0-56.0","196363","","1188","","","","","","","","","","","2","key","2","16.667000000000257","720","250","1"
+"","","","","","html-keyboard-response","233","447264","0.0-13.0-57.0","196363","","839","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","234","449480","0.0-13.0-58.0","196363","","2207","","","","","","","","","","","1","key","1","16.667000000000076","720","250","1"
+"","","","","","html-keyboard-response","235","450338","0.0-13.0-59.0","196363","","858","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","236","451616","0.0-13.0-60.0","196363","","1273","","","","","","","","","","","1","key","1","16.668714285714024","720","250","1"
+"","","","","","html-keyboard-response","237","452728","0.0-13.0-61.0","196363","","1112","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","238","458089","0.0-13.0-62.0","196363","","5353","","","","","","","","","","","2","key","2","16.667000000000055","720","250","1"
+"","","","","","html-keyboard-response","239","458835","0.0-13.0-63.0","196363","","744","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","240","460146","0.0-13.0-64.0","196363","","1305","","","","","","","","","","","1","key","1","16.66700000000036","720","250","1"
+"","","","","","html-keyboard-response","241","460572","0.0-13.0-65.0","196363","","424","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","242","461967","0.0-13.0-66.0","196363","","1389","","","","","","","","","","","2","key","2","16.668499999999767","720","250","1"
+"","","","","","html-keyboard-response","243","463777","0.0-13.0-67.0","196363","","1809","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","244","464915","0.0-13.0-68.0","196363","","1134","","","","","","","","","","","1","key","1","16.666999999999568","720","250","1"
+"","","","","","html-keyboard-response","245","465430","0.0-13.0-69.0","196363","","514","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","246","466550","0.0-13.0-70.0","196363","","1114","","","","","","","","","","","1","key","1","16.667000000000193","720","250","1"
+"","","","","","html-keyboard-response","247","466926","0.0-13.0-71.0","196363","","375","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","248","468398","0.0-13.0-72.0","196363","","1466","","","","","","","","","","","2","key","2","16.66699999999996","720","250","1"
+"","","","","","html-keyboard-response","249","468779","0.0-13.0-73.0","196363","","380","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","250","470216","0.0-13.0-74.0","196363","","1430","","","","","","","","","","","1","key","1","16.667000000000264","720","250","1"
+"","","","","","html-keyboard-response","251","470856","0.0-13.0-75.0","196363","","639","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","252","472766","0.0-13.0-76.0","196363","","1906","","","","","","","","","","","1","key","1","16.668122807017777","720","250","1"
+"","","","","","html-keyboard-response","253","473280","0.0-13.0-77.0","196363","","512","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","254","474634","0.0-13.0-78.0","196363","","1346","","","","","","","","","","","1","key","1","16.667000000000023","720","250","1"
+"","","","","","html-keyboard-response","255","475636","0.0-13.0-79.0","196363","","1000","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","256","476840","0.0-13.0-80.0","196363","","1199","","","","","","","","","","","1","key","1","16.666999999999664","720","250","1"
+"","","","","","html-keyboard-response","257","477199","0.0-13.0-81.0","196363","","358","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","258","478502","0.0-13.0-82.0","196363","","1294","","","","","","","","","","","1","key","1","16.66700000000016","720","250","1"
+"","","","","","html-keyboard-response","259","478816","0.0-13.0-83.0","196363","","311","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","260","480066","0.0-13.0-84.0","196363","","1247","","","","","","","","","","","1","key","1","16.66700000000031","720","250","1"
+"","","","","","html-keyboard-response","261","480333","0.0-13.0-85.0","196363","","266","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","262","483265","0.0-13.0-86.0","196363","","2923","","","","","","","","","","","2","key","2","16.667715909090806","720","250","1"
+"","","","","","html-keyboard-response","263","483947","0.0-13.0-87.0","196363","","681","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","264","485516","0.0-13.0-88.0","196363","","1565","","","","","","","","","","","1","key","1","16.667000000000353","720","250","1"
+"","","","","","html-keyboard-response","265","486822","0.0-13.0-89.0","196363","","1305","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","266","488182","0.0-13.0-90.0","196363","","1350","","","","","","","","","","","1","key","1","16.666999999999504","720","250","1"
+"","","","","","html-keyboard-response","267","488578","0.0-13.0-91.0","196363","","394","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","1","","","","","",""
+"","","","","","psychophysics","268","489921","0.0-13.0-92.0","196363","","1338","","","","","","","","","","","1","key","1","16.666999999999824","720","250","1"
+"","","","","","html-keyboard-response","269","490344","0.0-13.0-93.0","196363","","422","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","270","491438","0.0-13.0-94.0","196363","","1086","","","","","","","","","","","1","key","1","16.66892307692279","720","250","1"
+"","","","","","html-keyboard-response","271","491641","0.0-13.0-95.0","196363","","202","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","psychophysics","272","493608","0.0-13.0-96.0","196363","","1962","","","","","","","","","","","1","key","1","16.95686086956513","720","250","1"
+"","","","","","html-keyboard-response","273","494398","0.0-13.0-97.0","196363","","789","","","","","","","","","","
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id=""confidence-levels"">
+      <li id=""conf-1"">1: Not at all confident</li>
+      <li id=""conf-2"">2: Slightly confident</li>
+      <li id=""conf-3"">3: Somewhat confident</li>
+      <li id=""conf-4"">4: Very confident</li>
+      <li id=""conf-5"">5: Completely confident</li>
+    </ul>","2","","","","","",""
+"","","","","","html-keyboard-response","274","495762","0.0-14.0","196363","","1363","","","","","","","","","","Your average response time is null ms You are doing great"," ","","","","","",""
+"","","","","","survey-text","275","502945","0.0-15.0","196363","","7168","","","","","","","","","","","{""EasyToUnderstand"":""bb"",""Suggestions"":""dd"",""OtherComments"":""dd""}","","","","","",""

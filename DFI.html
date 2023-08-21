@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="jspsych-dist/dist/jspsych.js"></script>
+    <script src="jspsych-dist/dist/plugin-html-button-response.js"></script>
+    <script src="jspsych-dist/dist/plugin-preload.js"></script>
+    <script src="https://pixijs.download/release/pixi.js"></script>
+    <script src="jspsych-dist/dist/plugin-survey-text.js"></script>
+    <script src="jspsych-dist/dist/plugin-survey-html-form.js"></script>
+    <script src="jspsych-dist/dist/plugin-survey-multi-choice.js"></script>
+    <script src="jspsych-dist/dist/plugin-instructions.js"></script>
+    <script src="jspsych-dist/dist/plugin-survey-likert.js"></script>
+    <script src="jspsych-dist/dist/plugin-virtual-chinrest.js"></script>
+    <script src="jspsych-dist/dist/plugin-fullscreen.js"></script>
+    <script src="jspsych-dist/dist/plugin-html-slider-response.js"></script>
+    <script src="jspsych-dist/dist/plugin-html-keyboard-response.js"></script>
+    
+
+
+
+    <script src="jspsych-psychophysics.js"></script>
+    <link rel="stylesheet" href="jspsych-dist/dist/jspsych.css"></link>
+    <style>
+        .highlighted {
+            background-color: #e0e0e0; /* Light gray */
+        }
+
+        .justified-text {
+            text-align: justify;
+        }
+
+        .instruction-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers children horizontally */
+            justify-content: space-between; /* Maximizes space between children */
+            height: 100%;
+            position: relative;
+            text-align: center;
+            font-family: 'Arial', sans-serif; /* You can choose any other font family */
+        }
+
+        .instruction-header {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .instruction-text {
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .instruction-image {
+            margin-top: 20px; /* Spacing above the logo */
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+
+<body bgcolor="white">
+</body>
+<script>
+
+    function set_html_style_1() {
+        document.body.style.backgroundColor = 'gray'
+    }
+    function set_html_style_2() {
+        document.body.style.backgroundColor = 'white'
+    }
+   
+    function randInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    // Assume you have collected jsPsych data in a variable called 'experimentData'
+
+   /* function saveData() {
+        const data = jsPsych.data.get().csv();
+        p_id = localStorage.getItem('P_id');
+        const filename = `response/${p_id}.csv`;
+        downloadCSV(data, filename);
+    }
+
+
+    function downloadCSV(csv, filename) {
+        const csvBlob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        if (navigator.msSaveBlob) {
+            // IE 10+
+            navigator.msSaveBlob(csvBlob, filename);
+        } else {
+            // Other browsers
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(csvBlob);
+            link.setAttribute('download', filename);
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    }*/
+    function saveData(data) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'write_data.php'); // 'write_data.php' is the path to the php file described above.
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({ filedata: data }));
+    }
+    let contentDiv = document.getElementById("content");
+
+    const jsPsych = initJsPsych({
+        show_progress_bar: true,
+        
+        on_finish: function () {
+             saveData(jsPsych.data.get().csv());
+             if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.mozCancelFullScreen) { /* Firefox */
+                document.mozCancelFullScreen();
+            } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) { /* IE/Edge */
+                document.msExitFullscreen();
+            }
+
+            // Display thank you message
+            contentDiv.innerHTML = "<h2>Thank You</h2>";
+
+         },
+        use_webaudio: true
+    });
+    const participant_id = randInt(100000, 999999);
+    jsPsych.data.addProperties({ participant_id: participant_id });
+    localStorage.setItem('P_id', participant_id);
+    //var jsonData = JSON.stringify(jsPsych.data.get().values());
+   
+   
+
+
+
+    const pixi_flag = jsPsych.data.getURLVariable('pixi_flag') === '1' ? true : false;
+
+
+
+    const instruction = {
+        type: jsPsychInstructions,
+        show_clickable_nav: true,
+        pages: [
+            "<div class='instruction-container'>" +
+            "<img src='./img/Uni_logo.png' class='instruction-image'>" + "<br>" +
+            "<div class='instruction-header'>Hello and Welcome to the Experiment</div>" +
+            "<div class='instruction-text'>" +
+            "First of all, thank you for participating in this experiment! <br>" +
+            "I am Ruchira Sakalle, a masters in Cognitive Science Student at The University of Edinburgh. " +
+            "Your participation is valuable for my dissertation :) <br>" +
+            "Click next to view the instructions and proceed with the experiment!" +
+            "</div>" +
+            "</div>",
+
+            "<div class='instruction-container'>" +
+            "<img src='./img/Uni_logo.png'  class='instruction-image'><br><br>" +
+            "<div class='instruction-text'>" +
+            "In this experiment, you will be presented with a disk accompanied by some sound.<br>" +
+            "You have to tell how many disks you see by pressing 0 for no disk, 1 for one disk, and 2 for 2 disks!" +
+            "</div>" +
+            "</div>",
+            "<div class='instruction-container'>" +
+            "<img src='./img/Uni_logo.png'  class='instruction-image'><br><br>" +
+            "<div class='instruction-text'>" +
+            "Please Keep your system audio on and use headphones <br> Keep brightness to the fullest. <br> Do not attempt this experiment outdoors in daylight <br> " +
+            "Observe the disks carefully, don't be in a hurry! Experiment won't proceed unless you have responded to the trial!!"+
+          
+            "</div>" +
+            "</div>",
+        ]
+    };
+
+
+
+
+
+
+    const sounds = [ // All the sound files used in this demo
+        'sound/beep-10.wav', 'sound/beep-10.wav', 'sound/beep_20.wav', 'sound/beep_20.wav'
+
+    ];
+
+
+    // Preloading files are needed to present the stimuli accurately.
+    const preload = {
+        type: jsPsychPreload,
+
+        audio: sounds
+
+    }
+
+
+
+
+    const trial = {
+        type: jsPsychVirtualChinrest,
+        blindspot_reps: 3,
+         
+        on_finish: function (data) {
+            // Store the view_dist_mm value in the global variable
+            viewDistMM = data.view_dist_mm;
+            console.log(data.px2mm);
+            radi = (viewDistMM * 3.779) * 0.0520;
+            localStorage.setItem('radi', radi);
+        }
+
+
+
+    };
+
+
+    const full_screen = {
+        type: jsPsychFullscreen,
+        fullscreen_mode: true
+    };
+
+    const trial_block1 = [{
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        on_start: set_html_style_1,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                // startX: 700,
+                // startY: 300,
+                origin_center: true,
+                show_start_time: 50,
+                show_end_time: 400
+            },
+
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 520
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound'),
+                show_start_time: 500 // ms after the start of the trial
+
+
+
+
+            },
+
+
+        ],
+
+
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '1',
+            illusion:'No'
+        }
+
+
+    },
+
+    {
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        on_start: set_html_style_1,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 10,
+                show_end_time: 400
+
+
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('second_sound'),
+                show_start_time: 500 // ms after the start of the trial
+
+
+
+
+            },
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 530
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound'),
+                show_start_time: 590 // ms after the start of the trial
+
+
+
+
+            }
+
+        ],
+
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '1',
+            illusion: 'YES'
+        }
+
+    },
+
+    {
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        on_start: set_html_style_1,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 10,
+                show_end_time: 400
+
+
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('second_sound'),
+                show_start_time: 500 // ms after the start of the trial
+
+
+
+
+            }
+        ],
+
+
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '0',
+            illusion:'NO' // Change this value according to the correct response for this trial
+        }
+
+    },
+
+    {
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        on_start: set_html_style_1,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 10,
+                show_end_time: 400
+
+
+            },
+
+
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 530
+            }
+
+
+
+        ],
+
+
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '1' ,
+            illusion: 'NO'// Change this value according to the correct response for this trial
+        }
+
+    }
+    ];
+    const shuffledTrials_block1 = jsPsych.randomization.repeat(trial_block1, 10);
+    const confidence_question = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: `
+    <p>How confident are you in your response? Press the corresponding keys from 1 to 5 based on your experience</p>
+    <ul id="confidence-levels">
+      <li id="conf-1">1: Not at all confident</li>
+      <li id="conf-2">2: Slightly confident</li>
+      <li id="conf-3">3: Somewhat confident</li>
+      <li id="conf-4">4: Very confident</li>
+      <li id="conf-5">5: Completely confident</li>
+    </ul>`,
+        choices: ['1', '2', '3', '4', '5']
+
+
+    }
+
+    const feedback_question = {
+        type: jsPsychSurveyText,
+        on_start: set_html_style_2,
+
+        questions: [
+            {
+                prompt: "Was the experiment easy to understand?",
+                name: 'EasyToUnderstand',
+                rows: 2,
+                columns: 50,
+                required: true
+            },
+            {
+                prompt: "What changes could we make to the experiment to make it easier for you?",
+                name: 'Suggestions',
+                rows: 5,
+                columns: 50,
+                required: true
+            },
+            {
+                prompt: "How did you like the interface? Any suggestions to improve it",
+                name: 'Interface',
+                rows: 5,
+                columns: 50,
+                required: true 
+            },
+            {
+                prompt: "Did you feel that the sound alter the perception of flashes ",
+                name: 'Perception',
+                rows: 5,
+                columns: 50,
+                required: true
+            }
+        ]
+    };
+    // Create a new timeline containing each trial and the confidence question
+    const trials_with_confidence1 = [];
+    // Number of trials you want to run
+
+    for (let i = 0; i < shuffledTrials_block1.length; i++) {
+        // Add the trial
+        trials_with_confidence1.push(shuffledTrials_block1[i]);
+
+        // Add the confidence question after each trial
+        trials_with_confidence1.push(confidence_question);
+    }
+    const countdown_trial = {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: '<p>You have successfully completed one block of the experiment. The next part of the experiment can be started in <span id="clock">1:00</span> <br>'+'You can take a break for a minute or more if you like and Press continue when you are ready',
+        choices: [' Continue'],
+        on_load: function () {
+            var wait_time = 1 * 60 * 1000; // in milliseconds
+            var start_time = performance.now();
+            document.querySelector('button').disabled = true;
+            var interval = setInterval(function () {
+                var time_left = wait_time - (performance.now() - start_time);
+                var minutes = Math.floor(time_left / 1000 / 60);
+                var seconds = Math.floor((time_left - minutes * 1000 * 60) / 1000);
+                var seconds_str = seconds.toString().padStart(2, '0');
+                document.querySelector('#clock').innerHTML = minutes + ':' + seconds_str
+                if (time_left <= 0) {
+                    document.querySelector('#clock').innerHTML = "0:00";
+                    document.querySelector('button').disabled = false;
+                    clearInterval(interval);
+                }
+            }, 250)
+        }
+    }
+    const rt_block1 = []
+    const var_procedure = {
+        timeline: trials_with_confidence1, // Use the shuffled trials array here
+        timeline_variables: [
+            { second_sound: sounds[0], third_sound: sounds[1] }
+        ],
+        on_finish: function (data) {
+            rt_block1.push(data.rt);
+            const avg_rt1 = rt_block1.reduce((a, b) => a + b, 0) / rt_block1.length;
+            console.log(rt_block1.length)
+            localStorage.setItem("avg_rt_block1", avg_rt1.toFixed(3))
+
+        }
+
+    };
+    const response_time_block1 = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: "Your average response time is  " + localStorage.getItem('avg_rt_block1') + " ms You are doing great",
+        prompt: "Press space to continue",
+        choices: [' ']
+    };
+    const trials_block2 = [{
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        on_start: set_html_style_1,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 50,
+                show_end_time: 400
+            },
+
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 517
+            },
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 550, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 567
+            },
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound20'),
+                show_start_time: 510 // ms after the start of the trial
+
+
+
+
+            },
+
+
+        ],
+
+
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '2',
+            illusion:'YES' // Change this value according to the correct response for this trial
+        }
+
+
+    },
+
+    {
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 10,
+                show_end_time: 400
+
+
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('second_sound'),
+                show_start_time: 500 // ms after the start of the trial
+            },
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 530
+            },
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 560, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 590
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound'),
+                show_start_time: 580 // ms after the start of the trial
+
+
+
+
+            }
+
+        ],
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '2' ,
+            illusion:'NO'// Change this value according to the correct response for this trial
+        }
+
+    },
+    {
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        on_start: set_html_style_1,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 10,
+                show_end_time: 400
+
+
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('second_sound'),
+                show_start_time: 500 // ms after the start of the trial
+
+
+
+
+            },
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 530
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound'),
+                show_start_time: 590 // ms after the start of the trial
+
+
+
+
+            }
+
+        ],
+
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '1' ,
+            illusion:'YES'// Change this value according to the correct response for this trial
+        }
+
+    },
+    ];
+    const trials_with_confidence2 = [];
+    const shuffledTrials_block2 = jsPsych.randomization.repeat(trials_block2, 13);
+    for (let i = 0; i < shuffledTrials_block2.length; i++) {
+        // Add the trial
+        trials_with_confidence2.push(shuffledTrials_block2[i]);
+
+        // Add the confidence question after each trial
+        trials_with_confidence2.push(confidence_question);
+    }
+    const rt_block2 = []
+    const var_procedure2 = {
+        timeline: trials_with_confidence2, // Use the shuffled trials array here
+        timeline_variables: [
+            { second_sound20: sounds[2], third_sound20: sounds[3], third_sound: sounds[0], second_sound: sounds[1] }
+        ],
+        on_finish: function (data) {
+            rt_block2.push(data.rt);
+            const avg_rt2 = rt_block2.reduce((a, b) => a + b, 0) / rt_block2.length;
+            localStorage.setItem("avg_rt_block2", avg_rt2.toFixed(3))
+
+        }
+
+    };
+    const response_time_block2 = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: "Your average response time is " + localStorage.getItem('avg_rt_block2') + " ms You are doing great",
+        
+        prompt: "Press space to continue",
+        choices: [' ']
+    };
+
+
+    const trials_block3 = [{
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        on_start: set_html_style_1,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX:700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 50,
+                show_end_time: 400
+            },
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound20'),
+                show_start_time: 500 // ms after the start of the trial
+
+            },
+
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 530
+            },
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound20'),
+                show_start_time: 535 // ms after the start of the trial
+
+
+
+
+            },
+
+
+        ],
+
+
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        
+        data: {
+            correct_response: '1',
+            illusion: '25' // Change this value according to the correct response for this trial
+        }
+
+
+    },
+
+    {
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        canvas_height: 500,
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 10,
+                show_end_time: 400
+
+
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('second_sound20'),
+                show_start_time: 500 // ms after the start of the trial
+            },
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 530
+            },
+
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound20'),
+                show_start_time: 560 // ms after the start of the trial
+
+
+
+
+            }
+
+        ],
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+            choices: ['0', '1', '2'],
+            
+            data: {
+            correct_response: '1',
+            illusion: '50' // Change this value according to the correct response for this trial
+        }
+
+    },
+    {
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 10,
+                show_end_time: 400
+
+
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('second_sound20'),
+                show_start_time: 500 // ms after the start of the trial
+            },
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 530
+            },
+
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound20'),
+                show_start_time: 590 // ms after the start of the trial
+
+
+
+
+            }
+
+        ],
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '1',
+            illusion: '80' // Change this value according to the correct response for this trial
+        }
+
+    },
+
+    {
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        on_start: set_html_style_1,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                show_start_time: 10,
+                show_end_time: 400
+
+
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('second_sound'),
+                show_start_time: 500 // ms after the start of the trial
+
+
+
+
+            },
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 530
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound'),
+                show_start_time: 610 // ms after the start of the trial
+
+
+
+
+            }
+
+        ],
+
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '1',
+            illusion: '100' // Change this value according to the correct response for this trial
+        }
+
+    },
+    {
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        on_start: set_html_style_1,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 10,
+                show_end_time: 400
+
+
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('second_sound'),
+                show_start_time: 500 // ms after the start of the trial
+
+
+
+
+            },
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 530
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound'),
+                show_start_time: 660 // ms after the start of the trial
+
+
+
+
+            }
+
+        ],
+
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '1',
+            illusion: '150' // Change this value according to the correct response for this trial
+        }
+
+    },
+    {
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        on_start: set_html_style_1,
+        canvas_height: 500,
+
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 10,
+                show_end_time: 400
+
+
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('second_sound'),
+                show_start_time: 500 // ms after the start of the trial
+
+
+
+
+            },
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 530
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound'),
+                show_start_time: 710 // ms after the start of the trial
+
+
+
+
+            }
+
+        ],
+
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '1',
+            illusion: '200' // Change this value according to the correct response for this trial
+        }
+
+    },
+    {
+        type: jsPsychPsychophysics,
+        pixi: pixi_flag,
+        canvas_height: 500,
+        stimuli: [
+            {
+                obj_type: 'cross',
+                line_length: 100,
+                line_color: 'black',
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_start_time: 10,
+                show_end_time: 400
+
+
+            },
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('second_sound20'),
+                show_start_time: 500 // ms after the start of the trial
+            },
+            {
+                obj_type: 'circle',
+                radius: localStorage.getItem('radi'),
+                line_color: 'black',
+                fill_color: 'black',
+                show_start_time: 500, // ms after the start of the trial
+                //startX: 700,
+                //startY: 300,
+                origin_center: true,
+                show_end_time: 530
+            },
+
+
+            {
+                obj_type: 'sound',
+                file: jsPsych.timelineVariable('third_sound20'),
+                show_start_time: 810 // ms after the start of the trial
+
+
+
+
+            }
+
+        ],
+        prompt: "Press 0 ,1 ,2 for number of disks you see",
+        choices: ['0', '1', '2'],
+        data: {
+            correct_response: '1',
+            illusion: '300' // Change this value according to the correct response for this trial
+        }
+
+    },
+
+    ];
+    const trials_with_confidence3 = [];
+    const shuffledTrials_block3 = jsPsych.randomization.repeat(trials_block3, 7);
+    for (let i = 0; i < shuffledTrials_block3.length; i++) {
+        // Add the trial
+        trials_with_confidence3.push(shuffledTrials_block3[i]);
+
+        // Add the confidence question after each trial
+        trials_with_confidence3.push(confidence_question);
+    }
+    const rt_block3 = [];
+    const var_procedure3 = {
+        timeline: trials_with_confidence3, // Use the shuffled trials array here
+        timeline_variables: [
+            { second_sound20: sounds[0], third_sound20: sounds[1], third_sound: sounds[0], second_sound: sounds[1] }
+        ],
+        on_finish: function (data) {
+            rt_block3.push(data.rt);
+            const avg_rt3 = rt_block3.reduce((a, b) => a + b, 0) / rt_block3.length;
+            localStorage.setItem("avg_rt_block3", avg_rt3.toFixed(3))
+
+        }
+
+    };
+    const response_time_block3 = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: function(){
+            return "Your average response time is " + localStorage.getItem('avg_rt_block3') + " ms You are doing great";
+        },
+        prompt: "Press space to continue",
+        choices: [' ']
+    };
+
+
+    const pre_audio = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: 'Press Space to allow we',
+        choices: [' ']
+    };
+    shuffledexample = jsPsych.randomization.repeat(trial_block1, 2);
+    const example = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: "This is just trial run, press Space bar to continue",
+        choices: [" "]
+    };
+    const example_trial = {
+        timeline: shuffledexample, // Use the shuffled trials array here
+        timeline_variables: [
+            { second_sound: sounds[0], third_sound: sounds[1] }
+        ]
+    };
+    const post_example = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: "You have successfully completed the pilot , Press Space bar to continue to main block of experiment",
+        choices: [" "]
+    };
+
+    const goodbye = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: "You have successfully completed all the trials. Thank you for your time. Goodbye :)",
+        
+        trial_duration: 5000
+
+    }
+
+    jsPsych.run([ preload, instruction, full_screen, trial, example, example_trial, post_example, var_procedure, response_time_block1, countdown_trial, var_procedure2, response_time_block2, countdown_trial, var_procedure3, response_time_block3, feedback_question, goodbye]);
+</script>
+
+</html>
